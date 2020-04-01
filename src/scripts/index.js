@@ -18,11 +18,11 @@ let x = setInterval(function() {
   }
   let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
   if (minutes <= 9) {
-    minutes = "0" + hours;
+    minutes = "0" + minutes;
   }
   let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-  if (seconds <= 9) {
-    seconds = "0" + hours;
+  if (seconds < 10) {
+    seconds = "0" + seconds;
   }
   document.getElementById("days").innerHTML = days;
   document.getElementById("hours").innerHTML = hours;
