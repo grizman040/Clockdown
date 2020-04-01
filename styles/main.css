@@ -9,7 +9,8 @@ body {
 #header {
   margin-top: 50px;
   height: 100px;
-  background-color: black; }
+  text-shadow: 3px 3px 5px black;
+   }
 
 #banner {
   width: 90%;
@@ -21,7 +22,6 @@ table {
   font-size: 3rem;
   margin: 80px auto;
   color: white;
-  background-color: rgba(249, 249, 250, 0.164);
   border-radius: 300px;
   text-shadow: 3px 3px 5px black; }
 
