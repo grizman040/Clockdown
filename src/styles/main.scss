@@ -35,8 +35,8 @@ table td {
   padding-right: 10px; }
 
 #leftSideInfo {
+  font-size: 5rem;
   width: 90%;
-  margin-top: 30%;
   color: white;
   height: 20vh;
   text-shadow: 3px 3px 5px black; }
@@ -48,3 +48,15 @@ table td {
 i {
   font-size: 2rem;
   padding: 5px; }
+
+  @media (max-width:1200px) {
+    table {
+      
+
+      font-size: 2rem;}
+
+      #leftSideInfo {
+        font-size: 2.3rem;
+      }
+  }
+
