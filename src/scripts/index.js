@@ -2,7 +2,7 @@
 import "../styles/main.scss";
 // Import any additional modules you want to include below \/
 
-let endTime = new Date("May 31, 2020 23:59:59").getTime();
+let endTime = new Date("May 31, 2021 23:59:59").getTime();
 // \/ All of your javascript should go here \/
 
 let x = setInterval(function() {
